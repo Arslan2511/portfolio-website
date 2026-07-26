@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Muhammad Arslan | Portfolio</title>
+
+    <meta name="description" content="Muhammad Arslan - Web Developer, Python Programmer and Graphic Designer from Pakistan.">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================
+         LOADER
+    =========================== -->
+
+    <div id="loader">
+
+        <div class="spinner"></div>
+
+    </div>
+
+    <!-- ==========================
+         NAVIGATION
+    =========================== -->
+
+    <nav>
+
+        <div class="logo">
+
+            Arslan<span>Dev</span>
+
+        </div>
+
+        <ul id="menu">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#services">Services</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#stats">Stats</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <div class="nav-buttons">
+
+            <button id="darkMode">🌙</button>
+
+            <button id="menuBtn">
+
+                ☰
+
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- ==========================
+         HERO
+    =========================== -->
+
+    <header class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Muhammad Arslan</h1>
+
+            <h2>
+
+                <span id="typing"></span>
+
+            </h2>
+
+            <p>
+
+                I'm a student from Pakistan learning HTML, CSS,
+                JavaScript, Python and Graphic Design.
+
+                My goal is to become a professional freelancer.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">
+
+                    View Projects
+
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+
+                    Contact Me
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/profile.jpg" alt="Muhammad Arslan">
+
+        </div>
+
+    </header>
+
+    <!-- ==========================
+         ABOUT
+    =========================== -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p class="section-text">
+
+            Hi! I'm Muhammad Arslan.
+
+            I enjoy building websites, learning programming,
+            solving problems and creating graphic designs.
+
+            Every day I'm improving my skills so I can become
+            a professional freelancer.
+
+        </p>
+
+    </section>
+
+    <!-- ==========================
+         SKILLS
+    =========================== -->
+
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skill">
+
+            <div class="skill-title">
+
+                <span>HTML</span>
+
+                <span>90%</span>
+
+            </div>
+
+            <div class="bar">
+
+                <div class="progress html"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <div class="skill-title">
+
+                <span>CSS</span>
+
+                <span>85%</span>
+
+            </div>
+
+            <div class="bar">
+
+                <div class="progress css"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <div class="skill-title">
+
+                <span>JavaScript</span>
+
+                <span>75%</span>
+
+            </div>
+
+            <div class="bar">
+
+                <div class="progress javascript"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <div class="skill-title">
+
+                <span>Python</span>
+
+                <span>80%</span>
+
+            </div>
+
+            <div class="bar">
+
+                <div class="progress python"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         SERVICES
+    =========================== -->
+
+    <section id="services">
+
+        <h2>Services</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>🌐 Web Development</h3>
+
+                <p>
+
+                    Responsive websites using HTML, CSS and JavaScript.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>🎨 Graphic Design</h3>
+
+                <p>
+
+                    Logos, social media posts,
+                    banners and thumbnails.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>🐍 Python Programming</h3>
+
+                <p>
+
+                    Beginner Python applications
+                    and automation scripts.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         PROJECTS
+    =========================== -->
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="filters">
+
+            <button class="filter active" data-filter="all">
+
+                All
+
+            </button>
+
+            <button class="filter" data-filter="html">
+
+                HTML
+
+            </button>
+
+            <button class="filter" data-filter="javascript">
+
+                JavaScript
+
+            </button>
+
+            <button class="filter" data-filter="python">
+
+                Python
+
+            </button>
+
+        </div>
+
+        <div class="cards">
+
+            <div class="card project html">
+
+                <img src="images/project1.png" alt="Portfolio">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+
+                    Personal portfolio built using HTML and CSS.
+
+                </p>
+
+                <div class="project-buttons">
+
+                    <a href="#">Live Demo</a>
+
+                    <a href="#">GitHub</a>
+
+                </div>
+
+            </div>
+
+            <div class="card project javascript">
+
+                <img src="images/project2.png" alt="Calculator">
+
+                <h3>Calculator</h3>
+
+                <p>
+
+                    Calculator using JavaScript.
+
+                </p>
+
+                <div class="project-buttons">
+
+                    <a href="#">Live Demo</a>
+
+                    <a href="#">GitHub</a>
+
+                </div>
+
+            </div>
+
+            <div class="card project python">
+
+                <img src="images/project3.png" alt="Python">
+
+                <h3>Python Project</h3>
+
+                <p>
+
+                    Coming Soon...
+
+                </p>
+
+                <div class="project-buttons">
+
+                    <a href="#">Live Demo</a>
+
+                    <a href="#">GitHub</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         STATS
+    =========================== -->
+
+    <section id="stats">
+
+        <h2>My Progress</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h1 class="counter" data-target="5">
+
+                    0
+
+                </h1>
+
+                <p>Projects</p>
+
+            </div>
+
+            <div class="card">
+
+                <h1 class="counter" data-target="4">
+
+                    0
+
+                </h1>
+
+                <p>Technologies</p>
+
+            </div>
+
+            <div class="card">
+
+                <h1 class="counter" data-target="100">
+
+                    0
+
+                </h1>
+
+                <p>Learning Motivation</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         CONTACT
+    =========================== -->
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required>
+
+            <input
+                type="email"
+                placeholder="Your Email"
+                required>
+
+            <textarea
+                rows="6"
+                placeholder="Your Message"
+                required></textarea>
+
+            <button class="btn">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- ==========================
+         FOOTER
+    =========================== -->
+
+    <footer>
+
+        <h3>Muhammad Ali</h3>
+
+        <p>
+
+            Web Developer • Graphic Designer • Python Learner
+
+        </p>
+
+        <p>
+
+            © 2026 Muhammad Ali. All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+    <!-- ==========================
+         BACK TO TOP
+    =========================== -->
+
+    <button id="topBtn">
+
+        ↑
+
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
